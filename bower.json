@@ -1,0 +1,15 @@
+{
+  "name": "tango-player",
+  "description": "Awesome stuff, the modular and interoperable way",
+  "version": "0.0.0",
+  "dependencies": {
+    "platform": "Polymer/platform#~0.3.3",
+    "polymer": "Polymer/polymer#~0.3.3",
+    "core-elements": "Polymer/core-elements#~0.3.5",
+    "paper-elements": "Polymer/paper-elements#~0.3.5",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "closure-compiler": "http://dl.google.com/closure-compiler/compiler-latest.zip"
+  }
+}

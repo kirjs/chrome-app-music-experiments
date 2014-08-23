@@ -1,0 +1,54 @@
+.song {
+  display: block;
+  width: 22%;
+  float: left;
+  background: #000000;
+  color: #ddd;
+  margin: 1px;
+  padding: 10px;
+  font-family: helvetica, arial, sans-serif;
+}
+.song:hover {
+  color: #fff;
+  outline: 2px #000 solid;
+
+}
+
+.icon {
+  float: right;
+  color: #ccc;
+  height: 16px;
+  width: 16px;
+}
+
+.icon:hover {
+  color: #fff;
+
+  outline: 1px #fff solid;
+  cursor: pointer;
+}
+.name {
+  font-size: 100%;
+  height: 40px;
+}
+.artist {
+  font-size: 80%;
+  float: left;
+}
+
+.year {
+  font-size: 80%;
+  float: right;
+}
+
+core-menu-button {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+core-item {
+  margin: 0;
+  padding: 0;
+
+}
+

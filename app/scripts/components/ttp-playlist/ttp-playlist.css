@@ -1,0 +1,26 @@
+:host {
+  display: block;
+}
+
+.board {
+  margin-left: 30px;
+  margin-top: 30px;
+  border: 1px #ddd solid;
+  position: relative;
+  width: 450px;
+  height: 450px;
+}
+
+.layer {
+  width: 450px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.overlay {
+  overflow: hidden;
+}
+
+
+

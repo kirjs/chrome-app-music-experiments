@@ -1,0 +1,21 @@
+<link rel="import" href="../../../lib/bower_components/polymer/polymer.html">
+<link rel="import" href="../ttp-song/ttp-song.html">
+<link rel="import" href="../ttp-tanda-builder/ttp-tanda-builder.html">
+<link rel="import" href="../../../lib/bower_components/paper-input/paper-input.html">
+<link rel="import" href="../../../lib/bower_components/core-list/core-list.html">
+<polymer-element name="ttp-playlist">
+  <template>
+    <ttp-tango-builder></ttp-tango-builder>
+    <div>
+      <paper-input inputValue="{{searchString}}" on-keyup="filter" label="Filter" floatingLabel="true"></paper-input>
+    </div>
+    <template repeat="{{song, i in songs | bySearchString }}">
+      <ttp-song name="{{song.name}}" year="{{song.year}}" orchestra="{{song.orchestra}}"
+                color="{{song.color}}" on-click = "{{buildTandaFrom}}" song = "{{song}}"></ttp-song>
+    </template>
+  </template>
+  <script src="../../../lib/bower_components/lodash/dist/lodash.js"></script>
+  <script src="../../common/hslToHex.js"></script>
+  <script src="../../common/songToColor.js"></script>
+  <script src="ttp-playlist.js"></script>
+</polymer-element>

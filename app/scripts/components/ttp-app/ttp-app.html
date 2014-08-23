@@ -1,0 +1,11 @@
+<link rel="import" href="../../../lib/bower_components/polymer/polymer.html">
+<link rel="import" href="../../../lib/bower_components/core-ajax/core-ajax.html">
+<link rel="import" href="../ttp-playlist/ttp-playlist.html">
+<polymer-element name="ttp-app">
+  <template>
+    <core-ajax auto url="data/songs.json" on-core-response="{{loadSongs}}"></core-ajax>
+    <ttp-tanda-builder id = "tandaBuilder"></ttp-tanda-builder>
+    <ttp-playlist id = "playlist"></ttp-playlist>
+  </template>
+  <script src="ttp-app.js"></script>
+</polymer-element>

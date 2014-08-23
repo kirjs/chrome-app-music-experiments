@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/../Gomoku/board/app/elements/heatmap/heatmap.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.bowerrc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.idea/encodings.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/background.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/built.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/data/songs.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/lib/bower_components/marked/test/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/manifest.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/common/hslToHex.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/common/songToColor.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-app/ttp-app.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-app/ttp-app.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-app/ttp-app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-playlist/ttp-playlist.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-playlist/ttp-playlist.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-playlist/ttp-playlist.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-song/ttp-song.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-song/ttp-song.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-song/ttp-song.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-tanda-builder/ttp-tanda-builder.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-tanda-builder/ttp-tanda-builder.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/components/ttp-tanda-builder/ttp-tanda-builder.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/tango-player.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulpfile.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/karma.conf.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/songToColorTest.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../temp/coding-challenges/WebUI/inheritance/klass.js" charset="UTF-8" />
+  </component>
+</project>
+

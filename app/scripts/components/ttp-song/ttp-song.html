@@ -1,0 +1,16 @@
+<link rel="import" href="../../../lib/bower_components/polymer/polymer.html">
+<link rel="import" href="../../../lib/bower_components/core-icon/core-icon.html">
+<link rel="import" href="../../../lib/bower_components/core-icons/core-icons.html">
+<polymer-element name="ttp-song" attributes="song">
+  <template>
+    <link rel="stylesheet" href="ttp-song.css"/>
+    <div class="song" style="background: {{song.color}}">
+      <core-icon icon="send-money" class="icon" on-click = "{{buildTanda}}"></core-icon>
+      <div class="name">{{song.name}}</div>
+      <div class="artist">{{song.orchestra}}</div>
+      <div class="year">{{song.year}}</div>
+    </div>
+  </template>
+
+  <script src="ttp-song.js"></script>
+</polymer-element>

@@ -1,0 +1,17 @@
+<link rel="import" href="../../../lib/bower_components/polymer/polymer.html">
+<link rel="import" href="../ttp-song/ttp-song.html">
+<polymer-element name="ttp-tanda-builder">
+  <template>
+    <link rel="stylesheet" href="ttp-tanda-builder.css"/>
+    <div class = "wrapper" >
+      <template repeat="{{song, i in songs  }}">
+        <ttp-song name="{{song.name}}" year="{{song.year}}" orchestra="{{song.orchestra}}"
+                  color="{{song.color}}" on-click="{{buildTandaFrom}}" song="{{song}}"></ttp-song>
+      </template>
+    </div>
+  </template>
+  <script src="../../../lib/bower_components/lodash/dist/lodash.js"></script>
+  <script src="../../common/hslToHex.js"></script>
+  <script src="../../common/songToColor.js"></script>
+  <script src="ttp-tanda-builder.js"></script>
+</polymer-element>
