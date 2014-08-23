@@ -5,3 +5,4 @@ _vulcanized
 _dist
 _tmp
 app/built.js
+.idea
